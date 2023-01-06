@@ -1,0 +1,38 @@
+Contact App -----
+
+Kavitha - 10 contacts
+xyz - 5 contacts
+abc - 20 contacts
+
+35 contacts
+
+kavitha - 10 contacts  - should link with email id
+-----------------------------------------------------------------
+@SpringBootApplication
+@SpringBootConfiguration
+@EnableAutoConfiguration
+@ComponentScan
+@Service
+@Repository
+@RestController
+@Controller
+@ResponseBody
+@RequestMapping
+@Autowired
+@GetMapping
+@PathVariable
+@RequestParam
+@PostMapping
+@RequestBody
+@PutMapping
+@DeleteMapping
+@ControllerAdvice
+@ExceptionHandler
+
+@Entity
+@Table(name="")
+@Id
+@Column(name="")
+
+@Document
+@Document(collection="")

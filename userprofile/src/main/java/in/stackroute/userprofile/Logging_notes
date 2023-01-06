@@ -1,0 +1,107 @@
+System.out.println("......")
+- statements are temporary
+- results in cluttering
+- difficult to locate the issues
+
+
+log
+---
+messages about the event happing in our application.
+
+logging frameworks
+-------------------
+JDK - Logging API (default)
+
+slf4j - simple logging facade for Java
+- Log4j ---- Log4j2
+- Logback
+
+
+Advantages of Logging Frameworks
+---------------------------------
+- levels of message
+
+DEBUG -->INFO -->WARN -->ERROR
+
+the default level of log message in INFO
+
+- log messages in different destinations
+ console, file, database
+
+- To customise the format of log messages
+
+
+----------------------------------------------------------
+Spring AOP
+
+AOP - Aspect oriented programming
+
+supporting logic / cross cutting concerns - logging , security , transcations.......
+
+- Spring AOP  - aggregate the section of code that would be repeated multiple places in your application
+
+
+@Aspect - a module which has a set of API providing cross cutting concerns
+
+Join point - represents point in your app where you can plugin AOP aspect
+
+Advice - This is the actual action to be taken after the method, before the method,when method returns ,when method
+throws exception
+
+@After
+@Before
+@AfterReturning
+@AfterThrowing
+@Around
+
+Point cut
+
+
+jwt
+Header.payload.signature
+
+
+signature
+encoded header+encoaded payload+secret key
+
+--------------------------------------------------------
+Microservice communication
+---------------------------
+
+Synchronous communication btw the microservice
+
+- Rest Template
+
+- Feign client
+
+
+userprofile service
+---------------------
+<dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-openfeign</artifactId>
+</dependency>
+
+- @EnableFeignClients
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
